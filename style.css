@@ -237,6 +237,12 @@ body {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
+.title,
+.info,
+.links a {
+	text-shadow: 0 0 1px #b7b7b7;
+}
+
 .title {
     font-weight: 700;
     margin: 1rem 0 .5rem 0;
@@ -271,4 +277,8 @@ body {
 
 .links a:hover {
     text-decoration: underline;
+}
+
+.ml-3 {
+	margin-left: 1rem;
 }
