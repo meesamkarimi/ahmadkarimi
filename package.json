@@ -1,0 +1,27 @@
+{
+  "name": "ahmadkarimi",
+  "version": "1.0.0",
+  "description": "Ahmad Karimi",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "postcss ./src/css/**/*.css -o ./public/css/style.css --watch",
+    "build:css": "postcss ./src/css/style.css -o ./public/css/style.css",
+    "production:css": "NODE_ENV=production postcss ./src/css/style.css -o ./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadkarimi1991/ahmadkarimi.git"
+  },
+  "author": "Ahmad Karimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadkarimi1991/ahmadkarimi/issues"
+  },
+  "homepage": "https://github.com/ahmadkarimi1991/ahmadkarimi#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4",
+    "win-node-env": "^0.4.0"
+  }
+}
