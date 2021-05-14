@@ -2,15 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-html {
-    height: 100%;
-}
-
-body {
-    min-height: 100%;
-}
-
 #image::before {
     content: "";
-    @apply block absolute top-0 left-0 w-full h-full;
+    @apply block absolute inset-0 w-full h-full;
 }
